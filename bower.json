@@ -1,0 +1,15 @@
+{
+  "name": "potree",
+  "version": "1.3.0",
+  "description": "Potree is a WebGL based viewer for large point clouds",
+  "main": [
+    "js/potree.js"
+  ],
+  "ignore": [
+    "npm-debug.log"
+  ],
+  "authors": [
+    "Turpin <eric.turpin@delair-tech.com>"
+  ],
+  "license": "MIT"
+}
