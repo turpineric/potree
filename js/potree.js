@@ -2816,11 +2816,11 @@ THREE.FirstPersonControls = function ( object, domElement ) {
 		if ( scope.enabled === false ) return;
 		event.preventDefault();
 
-		if ( event.button === 0 ) {
+		if ( event.button === 2 ) {
 			state = STATE.ROTATE;
 
 			rotateStart.set( event.clientX, event.clientY );
-		} else if ( event.button === 2 ) {
+		} else if ( event.button === 0 ) {
 			state = STATE.PAN;
 
 			panStart.set( event.clientX, event.clientY );
